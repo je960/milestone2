@@ -1,0 +1,23 @@
+---
+title: "ms_2"
+author: "Jerrica Li"
+date: "2/14/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Elon Musk and Tesla Stock by Celia Concannon
+
+This project is interesting because Concannon doesn't explicity come out with a conclusion about her project: she maps out the tweets that correspond to spikes in higher volume but some are inane ("Finally an explanation for daylight savings that makes sense") to more convincing tweets ("Excellent Tesla model X reviews"). I thought it was nicely interactive and very clear about the scope of the project and its execution in a small time frame (one year).
+However, I think what could be easily misleading about this graph is that we only see one dimension - volumes and tweets. But I don't know that much about the financial market - is volume the only measure for interest in stock on a certain day? Are we supposed to infer that higher interest in stock meant Tesla made more money? That Tesla had a better public perception? And what else are we missing that could have accounted for those spikes? Clearly some of those volume rises were not related to the RT of Musk, so how do we trust the conclusion Concannon is trying to make (of their correlation) when it seems like a convincing tweet happens alongside a spike? I also wonder how valuable it is to have the stock price opening and closing in separate graphs where we cannot really discern the rise or fall between the two at one time. Also none of the graphs had titles so it took a little bit to understand the correlations of each graph. 
+
+
+Perspective on Historical and Future Consequences of Climate Change by Isheka Agarwal 
+
+What I liked about this project is that it is immediately easy to navigate as a viewer, toggling between years 2013-2016 in past extreme heat days and then another graph for future extreme heat days. Maybe it would have been useful to show the impact of future extreme heat days  with an animation that slowly moved through time. Her graphs are very clear to understand and graph one value onto the map of America and have an immediate impact where the viewer can see which parts of America are most vulnerable to climate change. If the goal is show the geography of an America impacted by climate change, this project does the job. 
+However, if you are trying to show the magnitude of climate change on America, this project does not do a good job of that. First of all the future graph should have been in a warm color, not in a cool color (purple) which a viewer does not associate with heat. As well, the shading of the first graph, "Trends of extreme heat days and events in the US from 2013 to 2016", has a key of color from 0 (light yellow) to 15 (dark red) demarcating the number of heat day events per year. I think a normal viewer would assume that 0 was white, not yellow which I would imply meant more than 1 extreme heat days. Were there some counties with 0 heat days that Agarwal wanted to hide? 
+
+And in addition, the bottom graph "Future projection of heat days and events int he US for the next decade (2020 - 2030)" has a key that looks like 0 heat days is white and the top value, 200 heat days per year, is dark purple. This is a very different scale than the previous 0 - 20 key!! If this were the case, I would have made very clear that the gradient on each graph is not made equal. I would have put both graphs with the same color and gradient scale and shown how the the heat days will increase to an incredible magnitude. 
